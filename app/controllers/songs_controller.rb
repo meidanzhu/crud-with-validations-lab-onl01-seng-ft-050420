@@ -21,6 +21,14 @@ class SongsController < ApplicationController
       render :new
   end
 
+  def edit
+  end
+
+  def updated
+  end
+
+end
+
 
 
 
