@@ -14,7 +14,7 @@
 
 <%=form_for @song do |f|%>
   <%=f.text_field :title %>
-  <%=f.text_field :released %>
+  <%=f.check_box :released %>
   <%=f.number_field :release_year %>
   <%=f.text_field :genre %>
   <%=f.submit%>
